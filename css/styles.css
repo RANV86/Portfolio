@@ -10,10 +10,10 @@ html, body {
 }
 
 body {
-    background-image: url("../resources/images/background.png");
-    background-size: auto;
+    background-image: url("../resources/images/background3.png");
+    background-size: cover;
     background-position: top left;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
 }
 
 
@@ -87,7 +87,7 @@ main {
     text-align: center;
 }
 
-.home-content {
+.content {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -101,7 +101,7 @@ main {
     border: 4px solid #333;
 }
 
-.home-rght {
+.right {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -115,6 +115,21 @@ main {
     margin-bottom: 20px;
 }
 
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 900px;
+    margin: 80px auto 0;
+    gap: 40px;
+}
+
+.intro{
+    font-size: 1.2em;
+    color: #777;
+    text-align: justify;
+}
+
 .about,
 .projects,
 .contact {
@@ -122,16 +137,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.about h2, .projects h2, .contact h2 {
-    margin-bottom: 15px;
-    color: #333;
+    align-items: center;
 }
 
 .projects {

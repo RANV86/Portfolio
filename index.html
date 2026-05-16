@@ -4,37 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
         <nav class="navbar">
-            <img class="logo" src="logo.png" width="50">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+            <img class="logo" src="resources/images/logo.png" width="50">
+            <ul class="list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="Home">
-            <h3>Welcome to My Portfolio</h3>
-            <h1>Rodrgio Viana</h1>
-            <h6>front End Developer</h6>
-            <img class="profile" src="profile.jpg" alt="Profile Picture" width="150">
-        </section>
+        <section id="home" class="home">
+            <h1 class="title">Welcome to My Portfolio</h1>
+            <div class="home-content">
+                <img class="profile" src="resources/images/coding-happy.png" alt="Profile Picture" width="250">
+                <div class="home-rght">
+                    <h1>Rodrigo Viana</h1>
+                    <h6>Front-End Developer</h6>
+                </div>
+            </div>
+</section>
         
-        <section class="About">
+        <section id="about" class="about">
             <h2>About Me</h2>
             <p>This is a brief introduction about myself and my work.</p>
         </section>
 
-        <section class="Projects">
+        <section id="projects" class="projects">
             <h2>Projects</h2>
             <ul>
                 <li>Project 1: Description of project 1.</li>
@@ -46,7 +50,7 @@
             </ul>
         </section>
 
-        <section class="Contact">
+        <section id="contact" class="contact">
             <h2>Contact Me</h2>
             <p>You can reach me at example@email.com</p>
             <p>Or follow me on social media:</p>

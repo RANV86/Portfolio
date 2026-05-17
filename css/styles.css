@@ -56,7 +56,8 @@ header {
 
 .navbar a:focus {
     color: #0EA5E9;
-    outline: none;
+    outline: 2px solid #0EA5E9;
+    outline-offset: 4px;
 }
 
 .navbar ul {
@@ -201,9 +202,9 @@ main {
 }
 
 .pjt:focus {
-    color: #F8FAFC;
-    outline: none;
-    transform: scale(1.1);
+    color: #0EA5E9;
+    outline: 2px solid #0EA5E9;
+    outline-offset: 4px;
 }
 
 img {
@@ -246,7 +247,8 @@ img {
 .contact a:focus {
     text-decoration: none;
     color: #0EA5E9;
-    outline: none;
+    outline: 2px solid #0EA5E9;
+    outline-offset: 4px;
 }
 
 .contact ul {

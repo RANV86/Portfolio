@@ -3,14 +3,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-}
+ }
 
 html, body {
     width: 100%;
 }
 
 body {
-    background-image: url("../resources/images/background3.png");
+    background-color: #0F172A;
     background-size: cover;
     background-position: top left;
     background-repeat: no-repeat;
@@ -21,7 +21,7 @@ header {
     position: fixed;
     width: 100%;
     background-color: #1A1A1B;
-    color: #fff;
+    color: #F8FAFC;
     padding: 0 0;
     text-align: center;    
 }
@@ -45,13 +45,13 @@ header {
 }
 
 .navbar a {
-    color: #fff;
+    color: #F8FAFC;
     text-decoration: none;
     font-weight: bold;
 }
 
 .navbar a:hover {
-    text-decoration: underline;
+    color: #0EA5E9;
 }
 
 .navbar ul {
@@ -76,12 +76,12 @@ main {
 .home h1 {
     font-size: 2.5em;
     margin-bottom: 5px;
-    color: #777;
+    color: #F8FAFC;
 }
 
 .title {
     font-size: 1.5em;
-    color: #777;
+    color: #F8FAFC;
     margin-top: 0px;
     margin-bottom: 30px;
     text-align: center;
@@ -91,9 +91,9 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    max-width: 900px;
+    max-width: 960px;
     margin: 80px auto 0;
-    gap: 40px;
+    gap: 30px;
 }
 
 .profile {
@@ -111,11 +111,11 @@ main {
 
 .home h6 {
     font-size: 1em;
-    color: #777;
+    color: #F8FAFC;
     margin-bottom: 20px;
 }
 
-.about{
+.about {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -124,24 +124,43 @@ main {
     gap: 40px;
 }
 
-.intro{
+.intro {
     font-size: 1.2em;
-    color: #777;
+    color: #F8FAFC;
     text-align: justify;
 }
 
 .about,
-.projects,
-.contact {
+.projects {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 40px;
 }
 
-.projects {
+.works {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
     margin-bottom: 20px;
+    align-items: center;
+    max-width: 960px;
+    margin: 80px auto 0;
+    gap: 30px;
+}
+
+.projects a{
+    color: #F8FAFC;
+    text-decoration: none;
+}
+
+span{
+    color: #F8FAFC;
+    text-decoration: none;
 }
 
 .projects h3 {
@@ -149,25 +168,76 @@ main {
 }
 
 .projects p {
-    color: #555;
+    color: #F8FAFC;
 }   
 
 .contact p {
     margin-bottom: 10px;
 }
 
+.pjt {
+    list-style: none;
+    color: #F8FAFC;
+    padding: 5px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+    transition: transform 0.3s ease-in-out;
+}
+
+.pjt:hover {
+    color: #F8FAFC;
+    transform: scale(1.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.icons {
+    display: flex;          
+    flex-direction: row;    
+    justify-content: center; 
+    gap: 45px;              
+    margin-top: 15px;
+}
+
+.contact {
+    min-height: 77vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+    padding-top: 100px; 
+}
+
+.contact p {
+    color: #F8FAFC;
+}
+
 .contact a {
-    color: #333;
+    color: #F8FAFC;
     text-decoration: none;
 }
 
 .contact a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #0EA5E9;
+}
+
+.contact ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
 }
 
 footer {
     background-color: #1A1A1B;
-    color: #fff;
+    color: #F8FAFC;
     text-align: center;
     padding: 10px 0;
 }   

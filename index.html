@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;800&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
+
 <body>
+    <div class="bg-glow"></div>
+
     <header>
         <nav class="navbar">
             <img class="logo" src="resources/images/logo.png" alt="Rodrigo Viana logo" width="50">
+
             <ul class="list">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -23,62 +27,108 @@
 
     <main>
         <section id="home" class="home">
-            <h1 class="title">Welcome to My Portfolio</h1>
-            <div class="content">
-                <img class="profile" src="resources/images/coding-happy.png" alt="Profile Picture" width="250">
-                <div class="right">
-                    <p class="name">Rodrigo Viana</p>
+            <h1 class="title">
+                Welcome to <span class="gradient-text">My Portfolio</span>
+            </h1>
+
+            <div class="hero-content">
+                <div class="photo-card">
+                    <img src="resources/images/coding-happy.png" alt="Developer coding illustration">
+                </div>
+
+                <div class="hero-info">
+                    <h2 class="name">Rodrigo Viana</h2>
                     <p class="job">&lt;Front-End Developer&gt;</p>
+
+                    <div class="small-line"></div>
+
+                    <p class="hero-description">
+                        I build modern and responsive websites with clean code and great experience.
+                    </p>
+
+                    <a class="hero-button" href="#projects">
+                        View Projects <span>&rarr;</span>
+                    </a>
+
+                    <div class="hero-socials">
+                        <a href="https://github.com/RANV86" target="_blank" rel="noopener noreferrer">
+                            <img src="resources/images/github-sign.png" alt="GitHub">
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/rodrigo-viana-04042435" target="_blank" rel="noopener noreferrer">
+                            <img src="resources/images/linkedin (1).png" alt="LinkedIn">
+                        </a>
+
+                        <a href="mailto:rowv86@gmail.com" aria-label="Email">
+                            &#9993;
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
-        
+
         <section id="about" class="about">
             <h2 class="title">About Me</h2>
+
             <div class="content">
-                <p class="intro">I am passionate about learning and continuously improving my skills. I am eager to contribute to a team that values creativity, collaboration, and innovation. I am confident that my diverse background and dedication to front-end development will allow me to make a meaningful impact in the industry.</p>
-                <img class="profile" src="resources/images/stand-notebook.png" alt="About Me" width="250">
+                <p class="intro">
+                    I am passionate about learning and continuously improving my skills.
+                    I am eager to contribute to a team that values creativity, collaboration,
+                    and innovation. I am confident that my diverse background and dedication
+                    to front-end development will allow me to make a meaningful impact in the industry.
+                </p>
+
+                <div class="photo-card">
+                    <img src="resources/images/stand-notebook.png" alt="Person standing with notebook illustration">
+                </div>
             </div>
+
             <div class="icons">
-                <img src="resources/images/html.png" alt="Icon html" width="50">
-                <img src="resources/images/css-3.png" alt="Icon css" width="50">
-                <img src="resources/images/js.png" alt="Icon javascript" width="50">
+                <img src="resources/images/html.png" alt="HTML icon" width="50">
+                <img src="resources/images/css-3.png" alt="CSS icon" width="50">
+                <img src="resources/images/js.png" alt="JavaScript icon" width="50">
             </div>
         </section>
 
         <section id="projects" class="projects">
             <h2 class="title">Projects</h2>
+
             <ul class="works">
                 <li class="pjt">
                     <a href="https://github.com/RANV86/CodecademyExc/tree/main/Dasmoto's%20Arts%20%26%20Crafts" target="_blank" rel="noopener noreferrer">
-                        <img src="resources/images/Underconstruction.png" alt="Dasmoto's Arts & Crafts" width="250">
+                        <img src="resources/images/Underconstruction.png" alt="Dasmoto's Arts and Crafts project" width="250">
                         <span>Dasmoto's Arts & Crafts</span>
                     </a>
                 </li>
+
                 <li class="pjt">
                     <a href="https://github.com/RANV86/CodecademyExc/tree/main/TeaCozy" target="_blank" rel="noopener noreferrer">
-                        <img src="resources/images/Underconstruction.png" alt="Tea Cozy" width="250">
+                        <img src="resources/images/Underconstruction.png" alt="Tea Cozy project" width="250">
                         <span>Tea Cozy Project</span>
                     </a>
                 </li>
+
                 <li class="pjt">
                     <a href="https://github.com/RANV86/CodecademyExc/tree/main/PokerClub" target="_blank" rel="noopener noreferrer">
-                        <img src="resources/images/Underconstruction.png" alt="Poker Club" width="250">
+                        <img src="resources/images/Underconstruction.png" alt="Poker Club project" width="250">
                         <span>Poker Club</span>
                     </a>
                 </li>
+
                 <li class="pjt">
                     <a href="https://github.com/RANV86/CodecademyExc/tree/main/JS" target="_blank" rel="noopener noreferrer">
-                        <img src="resources/images/Underconstruction.png" alt="JavaScript Project" width="250">
+                        <img src="resources/images/Underconstruction.png" alt="JavaScript project" width="250">
                         <span>JavaScript Project</span>
                     </a>
                 </li>
+
                 <li class="pjt">
                     <a href="project5.html">
                         <img src="resources/images/Underconstruction.png" alt="Project 5" width="250">
                         <span>Project 5</span>
                     </a>
                 </li>
+
                 <li class="pjt">
                     <a href="project6.html">
                         <img src="resources/images/Underconstruction.png" alt="Project 6" width="250">
@@ -90,20 +140,41 @@
 
         <section id="contact" class="contact">
             <h2 class="title">Contact Me</h2>
+
             <p>You can reach me at <a href="mailto:rowv86@gmail.com">rowv86@gmail.com</a></p>
             <p>Or follow me on social media:</p>
+
             <ul>
-                <li><a href="https://www.linkedin.com/in/rodrigo-viana-04042435" target="_blank" rel="noopener noreferrer"><img src="resources/images/linkedin (1).png" alt="LinkedIn" width="50"></a></li>
-                <li><a href="https://github.com/RANV86" target="_blank" rel="noopener noreferrer"><img src="resources/images/github-sign.png" alt="GitHub" width="50"></a></li>
-                <li><a href="https://instagram.com/rowneves" target="_blank" rel="noopener noreferrer"><img src="resources/images/instagram (2).png" alt="Instagram" width="50"></a></li>
+                <li>
+                    <a href="https://www.linkedin.com/in/rodrigo-viana-04042435" target="_blank" rel="noopener noreferrer">
+                        <img src="resources/images/linkedin (1).png" alt="LinkedIn" width="50">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/RANV86" target="_blank" rel="noopener noreferrer">
+                        <img src="resources/images/github-sign.png" alt="GitHub" width="50">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://instagram.com/rowneves" target="_blank" rel="noopener noreferrer">
+                        <img src="resources/images/instagram (2).png" alt="Instagram" width="50">
+                    </a>
+                </li>
             </ul>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2024 My Portfolio. All rights reserved.</p>
-        <p><a href="https://www.flaticon.com/free-icons/html" title="html icons">Html icons created by Freepik - Flaticon</a></p>
+        <p>
+            <a href="https://www.flaticon.com/free-icons/html" title="html icons">
+                Html icons created by Freepik - Flaticon
+            </a>
+        </p>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
